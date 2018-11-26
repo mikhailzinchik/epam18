@@ -1,9 +1,10 @@
 package com.epam.recursion;
 
-/**
- * Write recursion function for get factorial native number n
- */
+
 public class Factorial {
+    /**
+     * Write recursion function for get factorial native number n
+     */
     public static int fact(int n) {
         int result;
 

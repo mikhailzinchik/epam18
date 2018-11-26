@@ -1,6 +1,9 @@
 package com.epam.atm;
 
 public class ATMSession extends Thread {
+    /**
+     * We put and remove a certain amount of money from the account
+     */
     @Override
     public void run() {
         ATM atm = new SimpleATM();

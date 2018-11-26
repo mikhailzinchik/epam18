@@ -52,7 +52,6 @@ public class MergeSort {
             }
             k++;
         }
-
         while (i <= middleBoundary) {
             this.inputArray[k] = this.helperArray[i];
             k++;

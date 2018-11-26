@@ -1,9 +1,9 @@
 package com.epam.arr;
 
-/**
- *Print a string formed by characters located in the four corners of the array (in any order)
- */
 public class Array {
+    /**
+     *Print a string formed by characters located in the four corners of the array (in any order)
+     */
     public static String getSymbols(char[][] array) {
         if (array.length < 2) {
             throw new IllegalArgumentException("Must be more than 2 rows");

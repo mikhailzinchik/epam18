@@ -1,6 +1,11 @@
 package com.epam.trafficlights;
 
 public class TrafficLights {
+    /**
+     *
+     * @param trafficTime -the time of the traffic light
+     * @return current color
+     */
     String changeLight(int trafficTime) {
         if (trafficTime < 0) {
             return "Invalid number";

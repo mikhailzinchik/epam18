@@ -5,23 +5,23 @@ import static com.epam.arr.Array3.printWordTwo;
 import static com.epam.arr.Array4.evenElementsInArray;
 import static com.epam.arr.Array5.getWordOdd;
 
-/**
- * 12.270 Print a string formed by characters located in the four corners of the array (in any order)
- * 12.271 Create a program that prints the word formed by several consecutive characters
- * with given numbers located in a certain row of the array
- * 12.272 Given a two-dimensional array of size 5x5, filled with letters. Type
- * word formed by array elements marked with an asterisk :, while reading them:
- * a) from left to right in each row, starting with the first;
- * b) from top to bottom in each column, starting with the first.
- * |*| |*| |*|
- * | |*| |*| |
- * |*| |*| |*|
- * | |*| |*| |
- * |*| |*| |*|
- * 12.273 Type the words formed by the even elements of each line of the array.
- * 12.274 Type the words formed by the odd elements of each column in the array
- */
 public class Main {
+    /**
+     * 12.270 Print a string formed by characters located in the four corners of the array (in any order)
+     * 12.271 Create a program that prints the word formed by several consecutive characters
+     * with given numbers located in a certain row of the array
+     * 12.272 Given a two-dimensional array of size 5x5, filled with letters. Type
+     * word formed by array elements marked with an asterisk :, while reading them:
+     * a) from left to right in each row, starting with the first;
+     * b) from top to bottom in each column, starting with the first.
+     * |*| |*| |*|
+     * | |*| |*| |
+     * |*| |*| |*|
+     * | |*| |*| |
+     * |*| |*| |*|
+     * 12.273 Type the words formed by the even elements of each line of the array.
+     * 12.274 Type the words formed by the odd elements of each column in the array
+     */
     static char [][] array={{'a','b','c','d','e'},
             {'f','g','h','i','j'},
             {'k','l','m','n','o'},

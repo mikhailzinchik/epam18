@@ -1,9 +1,10 @@
 package com.epam.arr;
 
-/**
- *12.274 Type the words formed by the odd elements of each column in the array
- */
+
 public class Array5 {
+    /**
+     *12.274 Type the words formed by the odd elements of each column in the array
+     */
     public static StringBuilder getWordOdd(char[][] array) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < array.length; i++) {

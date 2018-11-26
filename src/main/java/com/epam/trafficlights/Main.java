@@ -2,13 +2,13 @@ package com.epam.trafficlights;
 
 import java.util.Scanner;
 
-/*
- * Task:
- * Make a traffic light with a color output in the console. You enter a minute
- * (from zero to n) and access which light is on at the traffic lights.
- * The first two minutes are red, then three minutes are yellow and five minutes is green.
- */
 public class Main {
+    /**
+     * Task:
+     * Make a traffic light with a color output in the console. You enter a minute
+     * (from zero to n) and access which light is on at the traffic lights.
+     * The first two minutes are red, then three minutes are yellow and five minutes is green.
+     */
     public static void main(String[] args) {
         int trafficTime;
         String light;

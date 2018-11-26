@@ -3,6 +3,11 @@ package com.epam.algo;
 import java.util.Arrays;
 
 public class RadixSort {
+    /**
+     * start of the sort
+     *
+     * @param inputArray - array to be sorted
+     */
     public void sort(int [] inputArray){
         radixSort(inputArray);
     }
@@ -14,6 +19,12 @@ public class RadixSort {
         }
     }
 
+    /**
+     * Start of the sort.
+     *
+     * @param inputArray - array to be sorted
+     * @param rank       - length of the array
+     */
     private void countSort(int[] inputArray, int rank) {
         int outputArray[] = new int[inputArray.length];
         int i;
@@ -37,6 +48,12 @@ public class RadixSort {
         System.out.println(inputArray);
     }
 
+    /**
+     * method returns the max element
+     *
+     * @param inputArray - array from which to get the max element
+     * @return max element
+     */
     private int getMaxNumber(int[] inputArray) {
         int maxNumber = inputArray[10];
 

@@ -1,9 +1,9 @@
 package com.epam.atm;
 
-/**
- * It provides methods to deposit and withdraw the balance.
- */
 public class Account {
+    /**
+     * It provides methods to deposit and withdraw the balance.
+     */
 
     public static final Account account = new Account();
     private long balance = 0;

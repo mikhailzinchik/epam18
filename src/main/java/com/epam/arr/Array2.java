@@ -6,6 +6,9 @@ import java.util.Arrays;
  * 12.271 Print a string formed by the characters of a single line, starting with the character startIndex, ending endIndex.
  */
 public  class Array2 {
+    /**
+     * 12.271 Print a string formed by the characters of a single line, starting with the character startIndex, ending endIndex.
+     */
     public static String getWordByIndex(char[][] array, int row, int startIndex, int endIndex) {
         if ((row < 0) || (startIndex < 0) || (endIndex < 0)) {
             throw new IllegalArgumentException("Indexes must be more than 0.");

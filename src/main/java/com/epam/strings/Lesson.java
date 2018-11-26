@@ -1,16 +1,17 @@
 package com.epam.strings;
 
 import java.util.Scanner;
-/**
- * Task:
- * 9.13. Given the word. Display its third symbol on the screen.
- * 9.14. Given the word. display its last character.
- * 9.15. Given the word. Display its k-th symbol.
- * 9.64. Given the proposal. Determine how many identical letters there are in it.
- * 9.100. Given the word. Swap the second and fifth letters.
- * Print the offer in the console. Reverse letters.
- */
+
 public class Lesson {
+    /**
+     * Task:
+     * 9.13. Given the word. Display its third symbol on the screen.
+     * 9.14. Given the word. display its last character.
+     * 9.15. Given the word. Display its k-th symbol.
+     * 9.64. Given the proposal. Determine how many identical letters there are in it.
+     * 9.100. Given the word. Swap the second and fifth letters.
+     * Print the offer in the console. Reverse letters.
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
@@ -29,18 +30,43 @@ public class Lesson {
         printReverse(s);
     }
 
+    /**
+     * Output to the screen the third symbol of the given word
+     *
+     * @param in The initial word
+     * @return Third symbol of the word
+     */
     private static char printThirdSymbol(String in) {
         return in.charAt(2);
     }
 
+    /**
+     * Output to the screen the last symbol of the given word
+     *
+     * @param in The initial word
+     * @return The last symbol of the word
+     */
     private static char printLastSymbol(String in) {
         return in.charAt(in.length() - 1);
     }
 
+    /**
+     * Output to the screen the k-th symbol of the given word
+     *
+     * @param in The initial word
+     * @param k  The symbol number
+     * @return k-th symbol
+     */
     private static char printSomeSymbol(String in, int k) {
         return in.charAt(k - 1);
     }
 
+    /**
+     * Сount adjacent symbols in the given sentence
+     *
+     * @param in The initial sentence
+     * @return number of the adjacent symbols
+     */
     private static int printAmount(String in) {
         int i = 0;
         for (int j = 0; j < in.length() - 1; j++) {
@@ -50,6 +76,12 @@ public class Lesson {
         return i;
     }
 
+    /**
+     * Switch places of fifth and second symbols of the given word
+     *
+     * @param in The initial word
+     * @return Changed word
+     */
     private static String printChangeWords(String in) {
         char second = in.charAt(1);
         char fives = in.charAt(4);
@@ -57,6 +89,12 @@ public class Lesson {
         return word;
     }
 
+    /**
+     * Output the sentence where symbols were reversed
+     *
+     * @param in The initial sentence
+     * @return reversed sentence
+     */
     private static String printReverse(String in) {
         StringBuffer buffer = new StringBuffer(in);
         buffer.reverse();

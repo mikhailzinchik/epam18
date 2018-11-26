@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Iter {
+    /**
+     * We remove with method Iterator all Barsiks from the list of Cat
+     */
     public static void main(String[] args) {
         List<String> cat =new LinkedList<>();
 

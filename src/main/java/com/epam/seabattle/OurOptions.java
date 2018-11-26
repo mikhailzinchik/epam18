@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Ships have OurOptions[] body with coordinates Y and X.
  * OurField is an OurOptions[][] with each cell having the corresponding coordinates.
  *
- * {@code y}    elements' Y coordinate
+ * {@code y}    elements' Y coordinate.
  * {@code X}    elements' X coordinate
  * {@code state}    elements' state (WATER, BORDER, SHIP)
  * {@code symbol}   elements' symbol representation on the map
